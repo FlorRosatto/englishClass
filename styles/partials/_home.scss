@@ -1,0 +1,35 @@
+
+
+.presentation-main {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    h1 {
+        font-size: 90px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .buttonViewMore {
+     border: none;
+
+    }
+}
+
+@media (max-width : 750px) {
+    .presentation-main {
+        h1 {
+
+            font-size: 50px;
+        }
+        h2 {
+            font-size: 16px;
+        }
+    }
+}
+
+.cards-main {
+    display: flex;
+    justify-content: space-between;
+    gap: 3em;
+}

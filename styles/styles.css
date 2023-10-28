@@ -1,1 +1,81 @@
-/*# sourceMappingURL=styles.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+.presentation-main {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.presentation-main h1 {
+  font-size: 90px;
+}
+.presentation-main h2 {
+  font-size: 20px;
+}
+.presentation-main .buttonViewMore {
+  border: none;
+}
+
+@media (max-width: 750px) {
+  .presentation-main h1 {
+    font-size: 50px;
+  }
+  .presentation-main h2 {
+    font-size: 16px;
+  }
+}
+.cards-main {
+  display: flex;
+  justify-content: space-between;
+  gap: 3em;
+}
+
+.title-pages h2 {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  margin-top: 100px;
+  background-color: #780000;
+  height: 300px;
+  padding: 5em;
+}
+.footer .titleFooter {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 600;
+}
+.footer .footerIcons span {
+  display: flex;
+  gap: 16px;
+}
+.footer .footerIcons span img {
+  color: #fff;
+  width: 24px;
+  height: 24px;
+}
+
+header {
+  position: fixed;
+  width: 100vw;
+  z-index: 3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  transition: 0.1ms;
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  padding: 5em;
+}
+
+.mainHome {
+  display: flex;
+  flex-direction: column;
+  gap: 5em;
+}/*# sourceMappingURL=styles.css.map */

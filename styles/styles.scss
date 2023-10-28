@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+@import "./partials/home";
+@import "./partials/products";
+@import "./partials/footer";
+@import "./partials/navbar";
+
+* {
+    margin:  0;
+    padding: 0;
+    transition: 0.1ms;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    padding: 5em;
+}
+
+.mainHome {
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+}

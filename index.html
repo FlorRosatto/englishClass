@@ -20,63 +20,66 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  <a class="nav-link" href="#">Products</a>
-                  <a class="nav-link disabled" aria-disabled="true">About me</a>
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  <a class="nav-link" href="./pages/products.html">Products</a>
+                  <a class="nav-link" href="./pages/aboutMe.html">About me</a>
+                  <a class="nav-link" href="./pages/contact.html">Contact</a>
                 </div>
               </div>
             </div>
           </nav>
     </header>
 
-    <main>
-        <div class="cards-main">
-            <div>
-                <h1>English course</h1>
+    <main class="mainHome">
+        <section class="presentation-main row">
+            <div class="col">
+                <h1 class="titleHome">English course</h1>
                 <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, dignissimos ipsam necessitatibus consequuntur deleniti dolore impedit quisquam animi quasi minus laboriosam sint, quibusdam quae, quia sapiente adipisci itaque tenetur ad.</h2>
             </div>
-            <div>
-                <button>
+            <div class="col">
+                <a href="./pages/products.html" class="buttonViewMore">
                     View more
-                </button>
+                </a>
             </div>
-        </div>
-        <div class="cards-main">
-            <div class="card" style="width: 18rem;">
+        </section>
+        <section class="cards-main row">
+             <div class="card col-xl-3 col-md-3 col-sm-12" style="width: 25rem;">
                 <div class="card-body">
                   <h5 class="card-title">Basic plan</h5>
                   <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                   <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
               </div>
-              <div class="card" style="width: 18rem;">
+              <div class="card col-xl-3 col-md-3 col-sm-12" style="width: 25rem;">
                 <div class="card-body">
                   <h5 class="card-title">Intermediate plan</h5>
                   <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                   <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
               </div>
-              <div class="card" style="width: 18rem;">
+              <div class="card col-xl-3 col-md-3 col-sm-12" style="width: 25rem;">
                 <div class="card-body">
                   <h5 class="card-title">Gold plan</h5>
                   <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                   <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
               </div>
-        </div>
+        </section>
 
     </main>
     <footer>
-        <div>
-            
-        </div>
-        <div>
-            <span>
-                <img src="./images/facebook.png" alt="facebook icon">
-                <img src="./images/whatsapp.png" alt="whatsapp icon">
-                <img src="./images/instagram.png" alt="instagram icon">
-            </span>
+        <div class="footer row-cols-2">
+            <div>
+                <span class="titleFooter">English Course</span>
+            </div>
+            <div class="footerIcons">
+                <span class="row-cols-3">
+                    <img src="./images/facebook.png" alt="facebook icon">
+                    <img src="./images/whatsapp.png" alt="whatsapp icon">
+                    <img src="./images/instagram.png" alt="instagram icon">
+                </span>
+            </div>
+
         </div>
 
     </footer>
